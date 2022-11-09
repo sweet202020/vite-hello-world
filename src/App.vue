@@ -15,9 +15,11 @@ import AppHero from "./components/AppHero.vue"
 export default {
   components: {
     AppTitle,
-    AppHero
+    AppHero,
 
   },
+  AppHero,
+
 }
 </script>
 
