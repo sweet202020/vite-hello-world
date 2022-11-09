@@ -18,16 +18,6 @@ export default {
     AppHero
 
   },
-  /* data() {
-    return {
-      image: 'jumbo.jpg'
-    }
-  },
-  methods: {
-    getImagePath: function (imgPath) {
-      return new URL(imgPath, import.meta.url).href
-    }
-  } */
 }
 </script>
 
@@ -41,6 +31,12 @@ export default {
 
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: yellow;
 }
